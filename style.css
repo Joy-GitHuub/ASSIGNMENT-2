@@ -123,38 +123,7 @@ body{
     height: 427px;
 }
 
-/*---------- Login section style---------- */
-.login-container{
-    display: flex;
-    justify-content: center;
-
-}
-.login-form{
-    display: flex;
-    flex-direction: column;
-}
-.login-form input, button{
-    font-size: 1.2em;
-    margin-top: 15px;
-    border: 1px solid lightgray;
-    padding-left:10px ;
-
-}
-.login-form button{
-    background-color: rgb(96, 141, 225);
-    color: white;
-    font-weight: bold;
-    padding: 5px;
-    border: 0;
-    border-radius: 5px;
-}
-button:hover{
-    background-color: tomato;
-    
-}
-/*----------------------------------------------
-     History Champions Section Styles 
-----------------------------------------------*/
+/*--------------- History Champions Section Styles ------------------*/
 .champion-heading{
     text-align: center;
 }
@@ -204,6 +173,37 @@ button:hover{
     margin-top: 0;
 }
 
+/*---------- Login section style---------- */
+.login-container{
+    display: flex;
+    justify-content: center;
+
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form input, button{
+    font-size: 1.2em;
+    margin-top: 15px;
+    border: 1px solid lightgray;
+    padding-left:10px ;
+
+}
+.login-form button{
+    background-color: rgb(96, 141, 225);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: tomato;
+    
+}
+
+
 /* -------------------------------
     Footer Section Styles 
 ---------------------------------*/
@@ -230,12 +230,10 @@ footer p{
     font-family: 'Poppins', sans-serif;
 }
 
-/* ------------------------------
-    Media Queries
---------------------------------*/
+/* ------------ Media Queries-------*/
 
 /* Media Query For Mobile Screen */
-@media only screen and (max-width: 668px) {
+@media (max-width: 668px) {
     .banner-container{
         width: 100%;
         flex-direction: column;
@@ -296,7 +294,8 @@ footer p{
 
 }
 
-/* Media Query For Tablet Screen */
+/************ Media Query For Tablet Screen*********** */
+
 @media only screen and (min-width: 668px) and (max-width: 992px) {
     .banner-container{
         width: 100%;
