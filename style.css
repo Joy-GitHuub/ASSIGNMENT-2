@@ -152,6 +152,57 @@ button:hover{
     background-color: tomato;
     
 }
+/*----------------------------------------------
+     History Champions Section Styles 
+----------------------------------------------*/
+.champion-heading{
+    text-align: center;
+}
+
+.champion-heading img{
+    width: 15%;
+    
+}
+
+.champion-heading h2{
+    font-size: 30px;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.champions{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    padding-left: 100px;
+}
+
+.champion{
+    width: 330px;
+    height: 495px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+
+.champion img{
+    width: 100%;
+}
+
+.champion h1{
+    margin-bottom: 0;
+}
+
+.champion h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: tomato
+}
+
+.champion p{
+    margin-top: 0;
+}
 
 /* -------------------------------
     Footer Section Styles 
@@ -159,7 +210,7 @@ button:hover{
 
 footer{
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .logo-area img{
@@ -222,6 +273,19 @@ footer p{
         margin-top: 28px;
     }
 
+    .match{
+        width: 100%;
+    }
+
+    .champions{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15px;
+    }
+
+    .champion{
+        margin-top: 20px;
+    }
+
     footer{
         padding: 100px 0;
     }
@@ -242,7 +306,7 @@ footer p{
     }
 
     .banner-image img{
-        width: 70%;
+        width: 100%;
     }
 
     .player-container{
@@ -267,6 +331,23 @@ footer p{
         width: 656px;
         height: 496px;
         margin-top: 28px;
+    }
+
+    .today-match{
+        width: 150%;
+    }
+
+    .champions{
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 160px;
+    }
+
+    .champion-heading{
+        margin-left: 300px;
+    }
+
+    .champion{
+        margin-top: 20px;
     }
 
     footer{
