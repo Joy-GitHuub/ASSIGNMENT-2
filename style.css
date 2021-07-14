@@ -21,7 +21,7 @@ body{
 }
 
 .heading h1{
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
@@ -121,6 +121,36 @@ body{
 .highlight-image img{
     width: 567px;
     height: 427px;
+}
+
+/*  */
+.login-container{
+    display: flex;
+    justify-content: center;
+
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form input, button{
+    font-size: 1.2em;
+    margin-top: 15px;
+    border: 1px solid lightgray;
+    padding-left:10px ;
+
+}
+.login-form button{
+    background-color: rgb(96, 141, 225);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: tomato;
+    
 }
 
 /* -------------------------------
