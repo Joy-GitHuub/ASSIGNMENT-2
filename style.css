@@ -28,7 +28,8 @@ body{
 .banner-image img{
     width: 456px;
     height: 338px;
-    padding-left: 20px;
+   
+    
 }
 
 .btn{
@@ -41,7 +42,7 @@ body{
 }
 
 .btn:hover{
-    background-color: #c71757;
+    background-color: #81a3eb;
 }
 
 .banner-image{
@@ -89,6 +90,9 @@ body{
     color: #6C6C6C;
     font-family: 'Poppins', sans-serif;
 }
+
+/*  */
+
 
 /* ----------------------------------
     Highlights Section Styles
