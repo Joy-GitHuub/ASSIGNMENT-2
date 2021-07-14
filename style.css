@@ -1,11 +1,10 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Full Body Style */
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* -------------------------------
@@ -91,7 +90,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/*  */
+/* ---------------
+------------------ */
 
 
 /* ----------------------------------
